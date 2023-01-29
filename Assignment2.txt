@@ -1,0 +1,59 @@
+                                              Git and Github
+                                        
+
+                                     Assignment Questions And Answer
+
+ 
+
+Q. what is git?
+
+A.Git is a popular version control system ,Its was created by linus torvols in 2005,and has been maintained by junis hamano.
+
+-----------------------------------------------------------------
+
+Q.What do you understand by version control system?
+
+A.Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. 
+For examples :- developer stored the code in the  VCS and it want to change the some line of  code then it will take code from VCS and change it and VCS will record the both code previous and the new one .
+
+------------------------------------------------------------------
+
+Q.what is Github?
+
+A.GitHub is a code hosting platform for collaboration and version control.GitHub lets you (and others) work together on projects.
+
+------------------------------------------------------------------
+
+Q.mention some popular git hosting services?
+
+A.Bitbusket,gitlab,perforce,Beanstalk,codebase etc
+
+-----------------------------------------------------------------
+
+Q Different Types of Version Control System ?
+
+A.They are of three types:-
+1.local version control
+2.centralized version control
+3. Distributed version control
+
+------------------------------------------------------------------
+
+Q.What Benefits come with using git ?
+
+A.It is used for storing,trackingand collaborating with software projects.
+It make it easy  for developers to share code files and collaborate with fellow developers on open source.
+
+--------------------------------------------------------------------
+
+Q.What is git repository?
+
+A.It contains the collection of  files of various different version of project.
+And repositories are used to share the changes that are done by different developers.
+
+-------------------------------------------------------------------
+
+Q how can you initialize a repository in git?
+
+A.$git init command create a new repository.
+--------------------------------------------------------------------
