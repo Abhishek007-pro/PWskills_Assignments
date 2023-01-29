@@ -1,0 +1,116 @@
+                                       fundamental of java
+                                        Assignments - 05
+
+-------------------------------------------------------------------------------------------------
+
+Question 1. what is statical types and dynamically typed programming language?
+
+Answer. Statical typed language
+        We call a language “statically-typed” if it follows type checking during compilation. So, 
+        every detail about the variables and all the data types must be known before we do the 
+        compiling process.
+
+        Dynamically-typed Languages
+        We call a language “dynamically typed” if type checking takes place while the program runs
+        (run-time).In this type of language, there is no need to specify the data type of each 
+        variable while writing code.
+
+-------------------------------------------------------------------------------------------------
+
+Question 2. what is variable in java?
+
+Answer. A variable is a container which holds the value while the Java program is executed. A 
+        variable is assigned with a data type.
+
+-------------------------------------------------------------------------------------------------
+
+Question 3. how to assign a value in  variable ?
+
+Answer .  their is two ways
+          1. datatype name;
+             name = value;
+          2. datatypw name = value;
+
+-------------------------------------------------------------------------------------------------
+
+Question 4. what are primitive data type in java?
+
+Answer. The primitive data types include boolean, char, byte, short, int, long, float and double.
+
+        In Java language, primitive data types are the building blocks of data manipulation. These
+        are the most basic data types available in Java language.
+
+--------------------------------------------------------------------------------------------------
+
+Question 5. what are the identifier in java?
+
+Answer.Identifiers in Java are names that distinguish between different Java entities, such as classes,
+       methods, variables, and packages. Identifiers include the names of classes, methods, variables,
+       packages, constants, etc.
+
+---------------------------------------------------------------------------------------------------
+
+Question 6. list of the operators in java?
+ 
+Answer. Java supports the following types of operators:
+        1.Arithmetic Operators
+        2.Assignment Operators
+        3.Logical Operators
+        4.Relational Operators
+        5.Unary Operators
+        6.Bitwise Operators
+        7.Ternary Operators
+        8.Shift Operators
+---------------------------------------------------------------------------------------------------
+
+Question 7.Explain about the increasing and decreasing operator in java with example?
+
+Answer.Increment operator is used to increment a value by 1. There are two varieties of increment 
+       operator: 
+
+       Post-Increment: Value is first used for computing the result and then incremented.
+       Pre-Increment: Value is incremented first and then the result is computed.
+
+       example :-  int a = 5;
+                   int b = 7;
+       
+                   int c = a++; 
+                   System.out.println("Post- Increment c = "+ c);
+
+                   output: Post-Increment = 5;
+
+                   int a = 5;
+                   int b = 7;
+       
+                   int c = --a; 
+                   System.out.println("Pre- Increment c = "+ c);
+
+                   output: Pre-Increment = 6;
+
+      Decrement operator is used for decrementing the value by 1. There are two varieties of decrement 
+      operators. 
+
+      Post-decrement: Value is first used for computing the result and then decremented.
+      Pre-decrement: Value is decremented first and then the result is computed.
+
+      Example :- int a = 5;
+                 int b = 7;
+       
+                 int c = a--;
+                 System.out.println("Post- Decrement c = "+ c);
+
+                 output: Post - Drcrement c = 5;
+ 
+
+                 int a = 5;
+                 int b = 7;
+       
+                 int c = a--;
+                 System.out.println("Post- Decrement c = "+ c);
+
+                 output: Post - Drcrement c = 5;
+
+--------------------------------------------------------------------------------------------------------
+
+
+
