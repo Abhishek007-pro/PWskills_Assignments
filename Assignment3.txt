@@ -1,0 +1,65 @@
+                                           Git And Github
+                                           Assignment - 3
+
+Question 1. how to check is git is in your system?
+
+Answer. go to command prompt
+        then type git
+        if it show git command then it means it installed in your system.
+---------------------------------------------------------------------------------
+
+
+Question 2.how to initialize the new git repository?
+
+Answer. command is " git init " it make a new git repository.in the location of that folder.
+
+----------------------------------------------------------------------------------
+
+Question 3.how to tell git about your name and email?
+
+Answer. both name and email must exist in github account
+        
+        For name let Abhishek  
+        command :- git config --global user.name "Abhishek"     (enter) 
+
+        For Email let Abhishek@gmail.com
+        command :- git config --global user.email "Abhishek@gmail.com"    (Enter)
+------------------------------------------------------------------------------------
+
+Question 4. how to add a file at staging Area.
+ 
+Answer.  for Add All At once  command :- git add .                     (enter)
+         for Add once At a time command :- git add filename.ext        (enter)
+
+----------------------------------------------------------------------------------
+
+Question 5. 	how to remove file from staging Area
+
+Answer.  it will go to Working Area after removed from staging Area
+   
+         command :- git rm --cached filename.ext                       (enter)
+         
+------------------------------------------------------------------------------------
+
+Question 6.how to make a commit?
+
+Answer . command :- git commit -m "sutable message type here"          (enter)
+
+------------------------------------------------------------------------------------
+
+Question 7. how to send your changes to a remote repository?
+
+Answer. git push REMOTE-NAME LOCAL-BRANCH-NAME:REMOTE-BRANCH-NAME      (enter)
+
+------------------------------------------------------------------------------------
+
+Question 8. what is difference between clone and pull?
+
+Answer. git clone is how you get a local copy of an existing repository to work on.
+        command :- git clone urlofRepositry                          (enter)
+
+        git pull (or git fetch + git merge ) is how you update that local copy with 
+        new commits from the remote repository.
+        command :- git pull                                           (enter)
+-------------------------------------------------------------------------------------
+
