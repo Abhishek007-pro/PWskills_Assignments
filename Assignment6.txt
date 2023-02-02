@@ -1,0 +1,93 @@
+                                          Operator and loops
+                                           Assignments - 06
+---------------------------------------------------------------------------------------------------------
+Question 1.What are the conditional operators in java?
+
+Answer. The conditional operator is also known as the ternary operator. This operator consists of three 
+operands and is used to evaluate Boolean expressions. The goal of the operator is to decide; which value
+should be assigned to the variable.
+
+--------------------------------------------------------------------------------------------------------
+Question 2. what are the type of operator based on the number of operands?
+
+Answer. There are 6 types of operator:-
+        1.Arthimatic operator
+        2.Assignments Operator
+        3.unary Operator
+        4.Relational Operator
+        5.Bitwise Operator
+        6.logical Operator
+
+--------------------------------------------------------------------------------------------------------
+Question 3. what is the use of switch case  in java programming?
+
+Answer. The switch case in java is used to select one of many code blocks for execution. Break keyword: 
+As java reaches a break keyword, the control breaks out of the switch block. The execution of code stops
+on encountering this keyword, and the case testing inside the block ends as the match is found.
+
+switch(Expression)
+{
+  case value1;
+  break;
+ 
+  case value2;
+  break;
+}
+
+--------------------------------------------------------------------------------------------------------
+Question 4. what are the priority level of arthimatic operator in java ?
+
+Answer.
+1.	Negative ( - ) unary.
+2.	Multiplication and division.
+3.	Addition and subtraction.
+4.	Left to Right Processing
+
+-------------------------------------------------------------------------------------------------------
+Question 5. what are the conditional statement and the use of contional statements?
+
+Answer.Java has the following conditional statements: Use if to specify a block of code to be executed,
+ if a specified condition is true. Use else to specify a block of code to be executed, if the same 
+condition is false. Use else if to specify a new condition to test, if the first condition is false.
+
+Conditions allow us to control what the program does and perform different actions based on these “if, 
+then” logic statements. What makes computer programs great is the ability to interact with a user- this
+ is only possible with conditions that direct this type of interaction.
+
+--------------------------------------------------------------------------------------------------------
+Question 6.what is the syntax of if else statements ?
+
+Answer. if(condition){  //if condition true then this execute  }
+        else{//if condition is not true then this execute}
+
+--------------------------------------------------------------------------------------------------------
+Question 7.what are the 3 typr of iteartive statement in java?
+
+Answer.for loop,while loop , do while loop.
+
+--------------------------------------------------------------------------------------------------------
+Question 8. what is difference in for loop and do while loop?
+
+Answer.for loop - It is used when the number of iterations is known.
+       while loop - It is used when the number of iterations is not known.
+
+       for loop - In case of no condition, the loop is repeated infinite times.
+       while - In case of no condition, an error will be shown.
+--------------------------------------------------------------------------------------------------------
+Question 9.write a program to print number from 1 to 10.
+
+Answer .public class Main{
+                          public static void main(String args{}){
+                                                                 for(int i = 1 ; i < 10;i++)
+                                                                   {
+                                                                    System.out.print(i);
+                                                                    }
+                                                                 }
+                         }
+
+        output :
+        1 2 3 4 5 6 7 8 9 10
+
+--------------------------------------------------------------------------------------------------------
+      
+       
